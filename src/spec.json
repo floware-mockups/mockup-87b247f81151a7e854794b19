@@ -1,0 +1,266 @@
+{
+  "title": "Agenda eventi culturali",
+  "description": "Prototipo navigabile per gestire il calendario della biblioteca, le iscrizioni e i posti disponibili. Tutti i nomi e i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo degli eventi in programma e delle iscrizioni.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "8"
+        },
+        {
+          "label": "Iscrizioni totali",
+          "value": "137"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "63"
+        },
+        {
+          "label": "Eventi al completo",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Sede",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Letture al crepuscolo",
+          "12/06/2026",
+          "Sala Lumo",
+          "24",
+          "18",
+          "6",
+          "In programma"
+        ],
+        [
+          "Laboratorio di carta stellare",
+          "14/06/2026",
+          "Atelier Nubi",
+          "16",
+          "16",
+          "0",
+          "Al completo"
+        ],
+        [
+          "Storie in giardino",
+          "18/06/2026",
+          "Corte Vela",
+          "30",
+          "21",
+          "9",
+          "In programma"
+        ],
+        [
+          "Mappe immaginarie",
+          "21/06/2026",
+          "Sala Lumo",
+          "20",
+          "13",
+          "7",
+          "In programma"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "eventi",
+      "title": "Eventi",
+      "description": "Consulta e filtra il calendario degli appuntamenti culturali.",
+      "metrics": [
+        {
+          "label": "Eventi nel calendario",
+          "value": "8"
+        },
+        {
+          "label": "Posti totali",
+          "value": "174"
+        },
+        {
+          "label": "Iscrizioni confermate",
+          "value": "137"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Sede",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Letture al crepuscolo",
+          "12/06/2026",
+          "Sala Lumo",
+          "24",
+          "18",
+          "6",
+          "In programma"
+        ],
+        [
+          "Laboratorio di carta stellare",
+          "14/06/2026",
+          "Atelier Nubi",
+          "16",
+          "16",
+          "0",
+          "Al completo"
+        ],
+        [
+          "Storie in giardino",
+          "18/06/2026",
+          "Corte Vela",
+          "30",
+          "21",
+          "9",
+          "In programma"
+        ],
+        [
+          "Mappe immaginarie",
+          "21/06/2026",
+          "Sala Lumo",
+          "20",
+          "13",
+          "7",
+          "In programma"
+        ],
+        [
+          "Piccolo teatro d'ombre",
+          "25/06/2026",
+          "Atelier Nubi",
+          "18",
+          "12",
+          "6",
+          "In programma"
+        ],
+        [
+          "Racconti dal mare di carta",
+          "28/06/2026",
+          "Corte Vela",
+          "26",
+          "19",
+          "7",
+          "In programma"
+        ],
+        [
+          "Musica tra le pagine",
+          "02/07/2026",
+          "Sala Lumo",
+          "22",
+          "22",
+          "0",
+          "Al completo"
+        ],
+        [
+          "Erbario fantastico",
+          "05/07/2026",
+          "Atelier Nubi",
+          "18",
+          "16",
+          "2",
+          "In programma"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Data",
+        "Sede",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti",
+        "Stato"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Gestisci le partecipazioni e verifica i posti rimasti per ciascun evento.",
+      "metrics": [
+        {
+          "label": "Iscrizioni confermate",
+          "value": "137"
+        },
+        {
+          "label": "In attesa",
+          "value": "5"
+        },
+        {
+          "label": "Eventi con posti disponibili",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Evento",
+        "Data",
+        "Sede",
+        "Stato iscrizione"
+      ],
+      "rows": [
+        [
+          "Mira Lumo",
+          "Letture al crepuscolo",
+          "12/06/2026",
+          "Sala Lumo",
+          "Confermata"
+        ],
+        [
+          "Timo Vela",
+          "Letture al crepuscolo",
+          "12/06/2026",
+          "Sala Lumo",
+          "Confermata"
+        ],
+        [
+          "Nara Nubi",
+          "Laboratorio di carta stellare",
+          "14/06/2026",
+          "Atelier Nubi",
+          "Confermata"
+        ],
+        [
+          "Elo Riva",
+          "Storie in giardino",
+          "18/06/2026",
+          "Corte Vela",
+          "In attesa"
+        ],
+        [
+          "Suri Lume",
+          "Mappe immaginarie",
+          "21/06/2026",
+          "Sala Lumo",
+          "Confermata"
+        ],
+        [
+          "Vani Seta",
+          "Piccolo teatro d'ombre",
+          "25/06/2026",
+          "Atelier Nubi",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Evento",
+        "Data",
+        "Sede",
+        "Stato iscrizione"
+      ]
+    }
+  ]
+}
